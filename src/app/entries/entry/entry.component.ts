@@ -12,8 +12,8 @@ export class EntryComponent {
     description: string = `A Description of ${this.title}`;
 
     comments: any[] = [
-        {name: `John`, comment: `A commment.`}
-        {name: `Jim`, comment: `A commment.`}
+        {name: `John`, comment: `A commment.`},
+        {name: `Jim`, comment: `A commment.`},
         {name: `Jen`, comment: `A commment.`}
     ]
 }
