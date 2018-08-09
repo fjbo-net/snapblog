@@ -11,4 +11,9 @@ export class EntryComponent {
     photo:string = `http://placehold.it/800x500?text=Angular Basics`;
     description: string = `A Description of ${this.title}`;
 
+    comments: any[] = [
+        {name: `John`, comment: `A commment.`}
+        {name: `Jim`, comment: `A commment.`}
+        {name: `Jen`, comment: `A commment.`}
+    ]
 }
